@@ -42,14 +42,16 @@ Before you begin, make sure you have the following installed on your machine:
    nodemon src/index.js
    ```
 
-   The server will start on [http://localhost:3000](http://localhost:3000) by default.
+   The server will start on [http://localhost:3000](http://localhost:5000) by default.
+   If you want to use a different port, simply include it in the command:
 
+ ```bash
+   nodemon src/index.js --port=YOUR_DESIRED_PORT
+ 
 ## Project Structure
 
 - `src/index.js`: Main server file.
-- `src/routes`: Contains route definitions.
-- `src/controllers`: Contains controllers for handling route logic.
-- `src/models`: Defines the data models for MongoDB.
+- `src/config.js`: Manages the configuration settings for MongoDB connection.
 - `views`: Contains EJS templates for rendering HTML.
 - `public`: Static assets (CSS, images, etc.).
 

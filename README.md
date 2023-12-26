@@ -1,6 +1,4 @@
-Absolutely! I've formatted and enhanced the readability of your README file:
 
-```markdown
 # Login and SignUp System with User Authentication
 
 This project is a straightforward implementation of a user authentication system using Node.js, Express.js, and MongoDB. It provides features such as user registration, login, password hashing using bcrypt, and storage of user data in a MongoDB database.

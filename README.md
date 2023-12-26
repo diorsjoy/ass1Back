@@ -49,17 +49,17 @@ Ensure you have the following installed on your machine:
 
 ## Project Structure
 
-- `src/index.js`: Main server file.
-- `src/config.js`: Manages configuration settings for MongoDB connection.
-- `views`: Contains EJS templates for rendering HTML.
-- `public`: Static assets (CSS, images, etc.).
+   - `src/index.js`: Main server file.
+   - `src/config.js`: Manages configuration settings for MongoDB connection.
+   - `views`: Contains EJS templates for rendering HTML.
+   - `public`: Static assets (CSS, images, etc.).
 
 ## Dependencies
 
-- [Express](https://expressjs.com/): Fast, unopinionated, minimalist web framework for Node.js.
-- [Mongoose](https://mongoosejs.com/): Elegant MongoDB object modeling for Node.js.
-- [bcrypt](https://www.npmjs.com/package/bcrypt): A library to help you hash passwords.
-- [EJS](https://ejs.co/): Embedded JavaScript templating.
+   - [Express](https://expressjs.com/): Fast, unopinionated, minimalist web framework for Node.js.
+   - [Mongoose](https://mongoosejs.com/): Elegant MongoDB object modeling for Node.js.
+   - [bcrypt](https://www.npmjs.com/package/bcrypt): A library to help you hash passwords.
+   - [EJS](https://ejs.co/): Embedded JavaScript templating.
 
 ## Contributing
 

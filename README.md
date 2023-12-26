@@ -46,7 +46,7 @@ Ensure you have the following installed on your machine:
 
  ```bash
    nodemon src/index.js --port=YOUR_DESIRED_PORT
- 
+ ```
 ## Project Structure
 
 - `src/index.js`: Main server file.

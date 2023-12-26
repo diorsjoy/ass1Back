@@ -19,12 +19,12 @@ Before you start, ensure you have the following installed on your machine:
    
 
 2. Navigate to the project directory:
-
+   ```
       cd login-signup-system
    
 
 3. Install dependencies:
-
+   ```
       npm install
    
 
@@ -34,7 +34,7 @@ Before you start, ensure you have the following installed on your machine:
    - Update the config.js file in the src directory with your database URL.
 
 5. Run the application:
-
+   ```
       nodemon src/index.js
    
 
@@ -63,4 +63,3 @@ If you'd like to contribute to this project, feel free to fork the repository an
 ## License
 
 This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
-```

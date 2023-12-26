@@ -19,13 +19,13 @@ Before you start, ensure you have the following installed on your machine:
    
 
 2. Navigate to the project directory:
-   ```
-      cd login-signup-system
+   
+    ```  cd login-signup-system
    
 
 3. Install dependencies:
-   ```
-      npm install
+
+     ``` npm install
    
 
 4. Set up your MongoDB database:
@@ -34,10 +34,9 @@ Before you start, ensure you have the following installed on your machine:
    - Update the config.js file in the src directory with your database URL.
 
 5. Run the application:
-   ```
-      nodemon src/index.js
-   
 
+     ``` nodemon src/index.js```
+   
    The server will start on http://localhost:3000 by default.
 
 ## Project Structure
